@@ -1,6 +1,6 @@
 package ru.job4j.calculator;
 
-public class Qwerty { //COment
+public class Qwerty {
     public static void plus(int a, int b, int d, int e) {
         int c = a + b;
         int f = e - a + d;
