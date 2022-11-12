@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.calculator;
+package ru.job4j.calculator;
 
 public class Qwerty {
     public static void plus(int a, int b, int d, int e) {
@@ -11,8 +11,10 @@ public class Qwerty {
     }
 
     public static void main(String[] args) {
-        Qwerty.plus(100, 85, 45, 300);
-        Qwerty.plus(250, 120, 70, 500);
-        Calculator.onePlustwo(100, 200);
+        Qwerty.plus(10, 10, 11, 11);
+        int result = Calculator.onePlustwo(100, 200);
+        System.out.print("Result: ");
+        System.out.println(result);
+
     }
 }

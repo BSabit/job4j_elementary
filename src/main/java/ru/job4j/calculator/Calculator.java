@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.calculator;
+package ru.job4j.calculator;
 
 public class Calculator {
     public static void main(String[] args) {
@@ -21,9 +21,20 @@ public class Calculator {
         onePlustwo(10, 11);
     }
 
-    public static void onePlustwo(int one, int two) {
+    public static int onePlustwo(int one, int two) {
         int res;
         res = one + two;
-        System.out.println(res);
+        return res;
+    }
+
+    public static class ArgMethod {
+        public static void hello(String name) {
+            System.out.println("Hello," + name);
+        }
+
+        public static void main(String[] args) {
+            String name = "Petr Arsentev";
+            ArgMethod2.hello(name);
+        }
     }
 }
