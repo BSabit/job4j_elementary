@@ -11,8 +11,7 @@ public class Qwerty {
     }
 
     public static void main(String[] args) {
-        Qwerty.plus(10, 10, 11, 11);
-        int result = Calculator.onePlustwo(100, 200);
+        int result = Calculator.onePlustwo(0, 0);
         System.out.print("Result: ");
         System.out.println(result);
 

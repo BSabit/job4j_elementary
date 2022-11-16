@@ -23,18 +23,18 @@ public class Calculator {
 
     public static int onePlustwo(int one, int two) {
         int res;
+
+        if (two != 0) {
+            System.out.println("Не будем вычислять дальше");
+        }
+        if (one == two) {
+            System.out.println("Цифры равны");
+
+        }
+
         res = one + two;
+
         return res;
-    }
 
-    public static class ArgMethod {
-        public static void hello(String name) {
-            System.out.println("Hello," + name);
-        }
-
-        public static void main(String[] args) {
-            String name = "Petr Arsentev";
-            ArgMethod2.hello(name);
-        }
     }
 }
