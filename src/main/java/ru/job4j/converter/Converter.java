@@ -60,17 +60,5 @@ public class Converter {
         float formula1 = Converter.tengeToDollar(prihod1);
         boolean test1 = result1 == formula1;
         System.out.println("4610 tenge are 10 dollar. Test result: " + test1);
-
-        float prihod2 = 15;
-        float result2 = 7155;
-        float formula2 = Converter.euroToTenge(prihod2);
-        boolean test2 = result2 == formula2;
-        System.out.println("15 euro are 7155 tenge. Test result: " + test2);
-
-        float prihod3 = 27;
-        float result3 = 12447;
-        float formula3 = Converter.dollarToTenge(prihod3);
-        boolean test3 = result3 == formula3;
-        System.out.println("27 dollar are 12447 tenge. Test result: " + test3);
     }
 }
